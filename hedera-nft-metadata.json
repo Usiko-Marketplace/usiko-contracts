@@ -1,0 +1,50 @@
+{
+  "name": "Example NFT 001",
+  "description": "This describes my NFT",
+  "image": "https://myserver.com/preview-image-nft-001.png",
+  "checksum": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+  "type": "image/png",
+  "format": "HIP412@2.0.0",
+  "files": [
+    {
+      "uri": "ipfs://bawlkjaklfjoiaefklankfldanmfoieiajfl",
+      "type": "video/mp4",
+      "metadata": {
+        "name": "video name",
+        "description": "nested file metadata",
+        "image": "ipfs://bakcjlajeioajflakdjfneafoaeinovandklf",
+        "properties": {
+          "additional_description": "The image in this nested metadata is the video thumbnail."
+        }
+      }
+    }
+  ],
+  "attributes": [
+    {
+      "trait_type": "color",
+      "display_type": "color",
+      "value": "rgb(255,0,0)"
+    },
+    {
+      "trait_type": "hasPipe",
+      "display_type": "boolean",
+      "value": true
+    },
+    {
+      "trait_type": "coolness",
+      "display_type": "boost",
+      "value": 10,
+      "max_value": 100
+    },
+    {
+      "trait_type": "stamina",
+      "display_type": "percentage",
+      "value": 83
+    },
+    {
+      "trait_type": "birth",
+      "display_type": "datetime",
+      "value": 732844800
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.26.3"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.73.1",
+    "@hashgraph/smart-contracts": "github:hashgraph/hedera-smart-contracts",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.2"
+  }
+}
